@@ -1,0 +1,16 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    /* Con flex-wrap: wrap conseguimos que si no caben las cosas, se pongan en  vertical */
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 400px;
+}
+.filmImage{
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.filmDetails{
+    font-size: 1.5rem;
+}

@@ -12,5 +12,19 @@
     margin-right: 30px;
 }
 .filmDetails{
+    color: white;
     font-size: 1.5rem;
+}
+.loading{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.spinning{
+    animation: giradormaximo 2s linear infinite;
+}
+@keyframes giradormaximo {
+    to{
+        transform: rotate(360deg);
+    }
 }

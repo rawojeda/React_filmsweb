@@ -1,0 +1,26 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+}
+.searchBox{
+    position: relative ;
+}
+.searchInput{
+    height: 15px;
+    border-radius: 4px;
+    padding: 5px 25px 5px 10px;
+    border: 1px solid white;
+}
+.searchInput:focus{
+    outline: none;
+    border: 1px solid #f88ec2;
+    box-shadow: 0 0 5px #ebbed4;
+}
+.searchButton{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}

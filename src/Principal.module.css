@@ -1,3 +1,25 @@
-.title{
-    text-align: center;
+.contenedor{  
+    height: auto;
+
+}
+.cabecera{   
+    background-color: #504E4E;
+    width: auto;
+}
+.navbar{
+    margin-top: 0;
+}
+.nav_components{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+.nav_component{
+    margin-right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.contenido{   
 }

@@ -1,3 +1,7 @@
+.titulo{
+    color: whitesmoke;
+    text-align: center;
+}
 .moviesGrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);

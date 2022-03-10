@@ -1,4 +1,4 @@
-import estilo from "../pages/film_details.module.css";
+import estilo from "../pages/css/film_details.module.css";
 import { FaSpinner } from 'react-icons/fa';
 
 export function Spinner(){

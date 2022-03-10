@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
-import estilo from "./film_details.module.css";
+import estilo from "./css/film_details.module.css";
 import { useEffect, useState } from 'react';
 import { get } from "../utils/httpClient";
 import { Spinner } from "../components/Spinner";
+import placeholder from "../placeholder.png";
 
 export function Filmdetails(){
     const { filmId }= useParams();
@@ -21,7 +22,9 @@ export function Filmdetails(){
     }
     if(!film){return null;}
 
-    const imageUrl = "https://image.tmdb.org/t/p/w400" + film.poster_path;
+    const imageUrl = film.poster_path
+    ? "https://image.tmdb.org/t/p/w400" + film.poster_path 
+    : placeholder;
 
     return (
     <div className={estilo.detailsContainer}>

@@ -24,7 +24,7 @@ export function App() {
             </ul>
           </nav>
         </div>
-
+{/* comentario desde ejmplo_pelis */}
         <div className={estilo.contenido}>
           <Switch>
             <Route exact path="/">

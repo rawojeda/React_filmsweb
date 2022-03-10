@@ -26,8 +26,8 @@ export function App() {
         </div>
 
 
-
 {/* comentario desde main */}
+{/* otro comentario desde main */}
         <div className={estilo.contenido}>
           <Switch>
             <Route exact path="/">

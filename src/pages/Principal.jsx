@@ -24,9 +24,12 @@ export function App() {
             </ul>
           </nav>
         </div>
+<<<<<<< HEAD
 {/* comentario desde ejmplo_pelis */}
 
 
+=======
+>>>>>>> main
 {/* comentario desde main */}
 {/* otro comentario desde main */}
         <div className={estilo.contenido}>
